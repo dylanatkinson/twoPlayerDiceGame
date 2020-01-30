@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.container {
+    border: 50px solid maroon;
+    background: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+}
+
+.playerOne {
+    line-height: 3;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+}
+
+.diceBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 20vw;
+}
+
+#dice-img {
+    border: 2px solid white;
+}
+
+#roll-btn {
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: transparent;
+}
+
+#hold-btn {
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: transparent;
+}
+
+#win-loss{
+    /* font-size: 50px; */
+    color: gold;
+    font-weight: bold;
+}
